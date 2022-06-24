@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({
   extended: true
 }));
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://Danish12:Danish@cluster0.vma7rgk.mongodb.net/stationaryDB");
+mongoose.connect("mongodb+srv://Danish:Danish@cluster0.vma7rgk.mongodb.net/stationaryDB");
 
 const productSchema = Joi.object().keys({
     productid : Joi.number().min(3).max(30).required(),
