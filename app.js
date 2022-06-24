@@ -8,7 +8,7 @@ const Joi = require('joi');
 
 
 // const { MongoClient, ServerApiVersion } = require('mongodb');
-// const uri = "mongodb+srv://danish:At#H46x4Y4wpb.L23>@cluster0.vma7rgk.mongodb.net/?retryWrites=true&w=majority";
+// const uri = "mongodb+srv://danish:At#H46x>@cluster0.vma7rgk.mongodb.net/?retryWrites=true&w=majority";
 // const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 // client.connect(err => {
 //   const collection = client.db("test").collection("devices");
